@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{DFEE03B3-A5B3-4EDC-AA96-9DE6A7CA264E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTests.Library", "Source\CSharpTests.Library\CSharpTests.Library.csproj", "{52F55B6B-6E49-4417-8B00-5A433142490C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{BF523DB2-53DF-4F19-BBA4-9A9999049AAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTests.Library.Tests.Unit", "Test\CSharpTests.Library.Tests.Unit\CSharpTests.Library.Tests.Unit.csproj", "{E977298E-2FB6-4CEE-9DA7-94DEEF2C66BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52F55B6B-6E49-4417-8B00-5A433142490C} = {DFEE03B3-A5B3-4EDC-AA96-9DE6A7CA264E}
+		{E977298E-2FB6-4CEE-9DA7-94DEEF2C66BF} = {BF523DB2-53DF-4F19-BBA4-9A9999049AAA}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52F55B6B-6E49-4417-8B00-5A433142490C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F55B6B-6E49-4417-8B00-5A433142490C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F55B6B-6E49-4417-8B00-5A433142490C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F55B6B-6E49-4417-8B00-5A433142490C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E977298E-2FB6-4CEE-9DA7-94DEEF2C66BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E977298E-2FB6-4CEE-9DA7-94DEEF2C66BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E977298E-2FB6-4CEE-9DA7-94DEEF2C66BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E977298E-2FB6-4CEE-9DA7-94DEEF2C66BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
